@@ -1,0 +1,13 @@
+name: preventsnowcore
+version: 1.337
+main: org.kew.preventsnowmelting.Preventsnowcore
+api-version: '1.21'
+commands:
+  preventsnow:
+    description: Toggles snow melting prevention.
+    usage: /<command> <true|false>
+    permission: preventsnow.toggle
+permissions:
+  preventsnow.toggle:
+    description: Allows toggling the snow prevention feature.
+    default: op
