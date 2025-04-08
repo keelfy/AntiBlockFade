@@ -1,0 +1,11 @@
+# if plugin enabled or not
+enabled: true
+# namespaced keys of blocks that should not fade (or melt)
+blocks-prevented-from-fading:
+  - "minecraft:snow"
+  - "minecraft:ice"
+
+messages:
+  plugin-enabled: "&aBlock fade prevention enabled!"
+  plugin-disabled: "&cBlock fade prevention disabled!"
+  usage: "&eUsage: /antiblockfade <true|false>"

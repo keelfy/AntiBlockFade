@@ -1,13 +1,14 @@
-name: preventsnowcore
-version: 1.337
-main: org.kew.preventsnowmelting.Preventsnowcore
+name: AntiBlockFade
+version: 1.0.0
+main: org.keelfy.antifade.AntiBlockFadePlugin
 api-version: '1.21'
 commands:
-  preventsnow:
-    description: Toggles snow melting prevention.
+  antiblockfade:
+    description: Toggles plugin
     usage: /<command> <true|false>
-    permission: preventsnow.toggle
+    permission: antiBlockFade.toggle
+
 permissions:
-  preventsnow.toggle:
-    description: Allows toggling the snow prevention feature.
+  antiBlockFade.toggle:
+    description: Allows toggling the block fade prevention feature.
     default: op
